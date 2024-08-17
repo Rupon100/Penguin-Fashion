@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply flex gap-2 text-white uppercase px-4 py-2  rounded bg-gradient-to-r from-blue-800 to-orange-600;
+
+    }
+    .pro-box {
+        @apply max-w-72  flex flex-col items-start rounded-lg shadow-lg shadow-gray-300;
+    }
+    .pro-header {
+        @apply uppercase text-3xl mb-4 font-semibold text-slate-800;
+    }
+    .pro-img-box {
+        @apply w-full rounded-xl p-2 flex justify-center bg-slate-100;
+    }
+    .pro-box-header {
+        @apply font-semibold text-2xl capitalize text-slate-800;
+    }
+    .price {
+        @apply text-3xl font-semibold text-orange-400;
+    }
+    .price-box {
+        @apply flex justify-between items-center;
+    }
+}
